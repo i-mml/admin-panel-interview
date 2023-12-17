@@ -1,0 +1,27 @@
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  box-shadow: 2px 0 5px -2px #aaa;
+  background-color: #c5e9ec;
+  .title {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .link {
+    color: #000;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .activeLink {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+  }
+}
